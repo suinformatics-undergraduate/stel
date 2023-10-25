@@ -1,13 +1,13 @@
 import React from 'react';
-import { App } from './App.1';
 
-function App(){
+function MyApp() {
   return (
     <div className="App">
       <header className="App-header">
+        {<h2>This is Home</h2>}
       </header>
     </div>
   );
 }
 
-export default App;
+export default MyApp;
